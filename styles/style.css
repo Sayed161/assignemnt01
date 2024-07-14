@@ -1,0 +1,342 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin: 38px 160px 47px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-primary{
+    padding: 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    width: 228px;
+    height: 58px;
+    text-align: center;
+    
+}
+
+.navbar-title{
+    font-size: 28px;
+    font-weight: 800;
+    font-family: "Azeret Mono";
+}
+
+.header-section{
+    background: url("../images/Hero-bg.png");
+    width: 100%;
+    height: 652px;
+    position: relative;
+    background-repeat: repeat;
+    display: block;
+    margin-bottom: 154px;
+    background-size: cover;
+
+}
+
+.header-container{
+    width: 748px;
+    height: 437px;
+    margin: 26px auto 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.header-images{
+    margin-bottom: 32px;
+
+}
+
+.header-title{
+    width: 1200px;
+    height: 176px;
+    font-size: 61px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.header-description{
+    width: 900px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.header-btn{
+    padding: 21px 24px 21px 24px;
+    background: #0D1321;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.header-btn a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-section{
+    margin: 0 152px;
+    height: 100%;
+    padding: 80px 97px;
+    justify-content: center;
+}
+
+.main-container{
+   padding: 27px;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+
+.main-header{
+    font-family: Azeret Mono;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.main-desc{
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main-segments{
+
+    display: flex;
+    gap: 0px 108px;
+    justify-content: center;
+    align-items: center;
+}
+
+.segments-text h4{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom:24px;
+}
+
+.segments-text p{
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.segments-text button a{
+    color: #000;
+}
+
+.segments-text button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.video-segments{
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-bottom:32px;
+}
+.video{
+   
+    border-radius: 16px;
+    
+}
+
+.goals{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.my-goals1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-goals2{
+    border-radius: 16px;
+    background: #004CE80D;
+    margin: 0px 24px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-goals3{
+    border-radius: 16px;
+    background: #FFDF000D;
+    margin: 0px 24px;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.goal-name{
+    font-size: 32px;
+    font-weight:800;
+    margin: 10px 0;
+}
+
+.goal-image{
+    height: 56px;
+    width: 56px;
+    margin: 24px 0;
+}
+
+.goal-descr{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 8px 0;
+}
+
+.goals a{
+    color: #0D1321;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.next-target{
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin: 24px 24px;
+    padding: 40px;
+}
+
+.next-title{
+    font-size: 24px;
+    font-weight:800;
+    margin: 8px 0;
+
+}
+
+.next-descr{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 8px 0;
+}
+
+.next-target a{
+    color: #0D1321;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.suport-section{
+    border-radius: 16px;
+    background: url("../images/handshake.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 44px 0;
+   text-align: center;
+    
+}
+
+.suport-section h1{
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin:16px 0;
+
+}
+.suport-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.7;
+    margin: 16px 0;
+}
+
+
+.suppport-container{
+    text-align: center;
+    display: block;
+}
+
+.search-bar input{
+    padding: 19px 20px 19px 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+}
+
+.search-bar button{
+    padding: 19px 20px 19px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 205px;
+}
+
+.footer-container h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-image img{
+    margin-left: 30px;
+}
